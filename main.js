@@ -37,7 +37,7 @@ const search = () => {
             link.textContent = 'Link : ' + song.preview_url;
             link.target = '_blank';
             link.style.marginBottom = "10px"
-            link.style.fontSize = "16px"
+            link.style.fontSize = "15px"
             link.style.fontWeight = "500"
             songDiv.appendChild(link);
       
