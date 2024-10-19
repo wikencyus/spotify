@@ -36,9 +36,11 @@ const search = () => {
             link.href = song.preview_url ? song.preview_url : '#';
             link.textContent = 'Link : ' + song.preview_url;
             link.target = '_blank';
-            link.style.marginBottom = "10px"
-            link.style.fontSize = "14px"
-            link.style.fontWeight = "500"
+            link.style.marginBottom = "10px";
+            link.style.fontSize = "15px";
+            link.style.display ="flex";
+            link.style.flexDirection = "column";
+            link.style.fontWeight = "500";
             songDiv.appendChild(link);
       
             const playButton = document.createElement('button');
